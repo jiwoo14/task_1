@@ -1,0 +1,70 @@
+@font-face {
+    font-family: 'drfont_daraehand';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_three@1.0/drfont_daraehand.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'yg-jalnan';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff')
+    format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.top {
+    width: 100%;
+    height: auto;
+    background: rebeccapurple;
+    padding: auto 0;
+    marign: auto 0;
+}
+
+.top > h1 {
+    color: white;
+    text-align: right;
+}
+
+.main {
+    marign-top: 0;
+    padding-top: 0;
+}
+
+.w {
+    float: left;
+    width: 45%;
+    padding: auto 0;
+    marign: auto 0 auto 5%;
+
+}
+
+.name {
+    font-family: drfont_daraehand;
+    color:rebeccapurple;
+}
+
+.middle {
+    font-family: yg-jalnan;
+    color: rebeccapurple;
+    text-align: right;
+}
+
+.w > p {
+    text-align: right;
+    padding: auto 0;
+    marign: auto 0;
+}
+
+.picture {
+    width: 40%;
+    float: right;
+    margin: 4.5% 5% auto 0;
+}
+
+.main_picture {
+    width: 100%;
+    height: auto;
+    vertical-align: center;
+    horiz-align: center;
+}

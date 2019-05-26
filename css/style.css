@@ -1,0 +1,106 @@
+@font-face {
+    font-family: 'drfont_daraehand';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_three@1.0/drfont_daraehand.woff')
+    format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'yg-jalnan';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff')
+    format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GyeonggiBatang';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GyeonggiBatang.woff')
+    format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.top {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    height: 8%;
+}
+div.top > p, a {
+    display: inline;
+    vertical-align: middle;
+    letter-spacing: 5px;
+    margin: 0 10px 10px 10px;
+    padding-bottom: 10px;
+}
+#top_box {
+    font-family: drfont_daraehand;
+    font-size: 25px;
+    background-color: rebeccapurple;
+    color: white;
+    margin: 0;
+    padding: 20px 5px 10px 5px;
+    letter-spacing: 1px;
+}
+#top_right {
+    margin-left: 30%;
+    margin-right: 10px;
+}
+.background {
+    padding: 0;
+    margin-top: 10px;
+}
+div.background > div.information {
+    position: relative;
+    border-right: rebeccapurple 6px solid;
+    border-bottom-right-radius: 16px;
+    border-top-right-radius: 16px;
+    color: black;
+    float: left;
+    margin-top: 8%;
+    margin-left: 20%;
+    text-align: right;
+    padding: 0 20px 0 0;
+}
+div.background > div.information > h1 {
+    font-family: yg-jalnan;
+    letter-spacing: 7px;
+}
+div.background > div.information > h3, p {
+    font-family: 'Neucha', cursive;
+}
+div.background > div.keywords {
+    position: relative;
+    margin-left: 5%;
+    margin-top: 6%;
+    padding-left: 0;
+    padding-top: 0;
+    padding-right: 18%;
+}
+div.row {
+    float: right;
+    padding-top: 0;
+    margin-top: 1px;
+}
+div.row > div.card {
+    display: inline;
+    float: left;
+    border: white 5px solid;
+}
+div.row > div.card > img {
+    height: 150px;
+    width: 150px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+div.row > div.card > h5 {
+    position: absolute;
+    font-family: 'Neucha', cursive;
+    margin-top: 0;
+    padding-top: 0;
+}
+div.row > div.card > p {
+    font-family: GyeonggiBatang;
+    font-size: 11px;
+    padding: 5px;
+    margin-top: 15px;
+}
